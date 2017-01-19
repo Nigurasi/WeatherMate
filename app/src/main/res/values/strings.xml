@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">WeatherMate</string>
+    <string name="to_menu">To Menu</string>
+    <string name="change_position">Change Location</string>
+    <string name="current_weather">Current Weather</string>
+    <string name="notKnown">n/a</string>
+
+
+    <string name="locationTitle"><u>Location</u></string>
+    <string name="longitude">Longitude:</string>
+    <string name="latitude">Latitude:</string>
+    <string name="country">Country:</string>
+
+    <string name="weather"><u>Weather</u></string>
+    <string name="description">Description:</string>
+    <string name="temperature">Temperature:</string>
+    <string name="pressure">Pressure:</string>
+    <string name="winSpeed">Wind speed:</string>
+
+    <string name="others"><u>Other Information</u></string>
+    <string name="nameOfLocation">Name of Location:</string>
+    <string name="sunrise">Sunrise:</string>
+    <string name="sunset">Sunset:</string>
+    <string name="weathermate">WeatherMate</string>
+    <string name="check_weather">Check weather</string>
+    <string name="title_activity_map">Map</string>
+    <string name="show_previous_positions">Show previous positions</string>
+    <string name="title_activity_history">History</string>
+    <string name="last_access">Last access:</string>
+    <string name="unknown">unknown</string>
+    <string name="favourite_positions">Favourite Positions</string>
+    <string name="favourites">Favourites</string>
+
+</resources>

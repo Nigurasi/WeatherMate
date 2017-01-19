@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.anna.myapplication.MenuActivity"
+    android:background="@drawable/w3c">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weathermate"
+        tools:textSize="24sp"
+        android:textStyle="normal|bold"
+        android:textIsSelectable="false"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:textSize="36sp"
+        android:typeface="monospace"
+        android:textColor="@color/Titles" />
+
+    <Button
+        android:text="@string/check_weather"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:id="@+id/checkWeatherB"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="205dp"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:typeface="normal"
+        android:textSize="18sp"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:text="@string/last_access"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/lastAccessTitle"
+        android:textSize="18sp"
+        android:textColor="@color/cast_expanded_controller_background_color" />
+
+    <TextView
+        android:text="@string/unknown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/lastAccessTitle"
+        android:layout_toEndOf="@+id/lastAccessTitle"
+        android:layout_marginStart="5dp"
+        android:id="@+id/lastAccessTV"
+        android:textColor="@color/cast_expanded_controller_background_color"
+        android:textSize="18sp" />
+
+    <Button
+        android:text="@string/favourite_positions"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:id="@+id/previousPositionsB"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:typeface="normal"
+        android:textSize="18sp"
+        android:textColor="@color/cast_expanded_controller_background_color"
+        android:layout_marginTop="61dp"
+        android:layout_alignTop="@+id/checkWeatherB"
+        android:layout_alignStart="@+id/checkWeatherB" />
+
+</RelativeLayout>
